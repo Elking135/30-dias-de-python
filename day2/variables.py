@@ -1,3 +1,5 @@
+from cProfile import run
+from calendar import c
 1
 1.2
 #Day2: 30 days of python programming
@@ -68,4 +70,25 @@ exp = num_one ** num_two
 
 2.47
 floor_division = num_one // num_two
-print(floor_division)
+
+2.5
+r = 30
+
+2.51
+area_of_circle =3.14159265 * r ** 2
+
+2.52
+circum_of_circle = 3.14159265 * 2 * r
+
+2.53
+radius = int(input("How long is the radius?"))
+area_of_circle_input = int(3.141159265 * radius * radius)
+
+2.6
+first_name2 = input("What's your name?")
+last_name2 = input("What's your last name?")
+age2 = input("How old are you?")
+
+2.7
+run
+help('keywords')
