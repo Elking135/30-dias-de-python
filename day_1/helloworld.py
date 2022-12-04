@@ -1,3 +1,4 @@
+2
 1.2
 print(3 + 4)
 print(3 -4)
@@ -28,9 +29,11 @@ print("integer is 2, float is 2.2, complex is 2 - 3i" )
 print("string is 'hola'")
 print("list is ['puerta', 'abrir']")
 print("boolean is 'true'")
+print("{'asd', 'dsai'} is dictionary")
+print("('adw', 13213) is tuple")
 
 3.2
 import math
 a = 2
 b = 3
-print(math.dist(a,b))
+math.dist(a,b)

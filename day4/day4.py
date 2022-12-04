@@ -77,3 +77,10 @@ company.index("l")
 25
 x = 'You cannot end a sentence with because because because is a conjunction'
 print(x[:30] + x[54:])
+
+26
+x.find("because")
+
+27
+x = 'You cannot end a sentence with because because because is a conjunction'
+print(x[:30] + x[54:])

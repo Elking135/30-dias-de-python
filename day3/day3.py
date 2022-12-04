@@ -97,3 +97,19 @@ else:
 19
 print(type("10"))
 print(type(10))
+
+20
+print(int("9.8"))
+print(10)
+
+21
+hours = int(input("Enter the hours "))
+rph = int(input("Enter the rate of hour "))
+we = hours * rph
+
+22
+years = int(input("Enter the years you have lived "))
+seconds = years * 365 * 24 * 216000
+
+23
+n = 1

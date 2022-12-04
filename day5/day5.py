@@ -67,11 +67,25 @@ it_companies_2 = it_companies[:4][3:]
 print(it_companies_2)
 
 21
-it_companies.remove("Facebook")
+it_companies.remove("Steam")
 
 22
 it_companies.remove("IBM")
 
 23
-it_companies.remove("Steam")
+it_companies.remove("APPLE")
 print(it_companies)
+
+24
+it_companies.clear()
+
+25
+del it_companies
+
+26
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+front_end.append(back_end)
+
+27
+full_stack = front_end
